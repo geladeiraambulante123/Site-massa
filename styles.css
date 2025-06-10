@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+ul.cabeçalho{
+    padding: 20px;
+    background-color: gray;
+    list-style: none;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+
+    & li{
+        margin-right: 10px;
+    }
+}
+
+header{
+    background-image: url(imagens/Background.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px;
+    margin: 0;
+
+    & h1{
+    color: white;
+    text-align: center;
+    text-justify: auto;
+    font-size: 90px;
+    }
+}
+
+.styleSection{
+    background-color: wheat;
+    border-radius: 30px;
+    max-width: auto;
+}
