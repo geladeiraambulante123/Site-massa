@@ -16,7 +16,7 @@ body {
 }
 
 .navegação {
-    background-color: aquamarine;
+    background-color: rgb(255, 251, 0);
     text-align: center;
     height: 80px;
     line-height: 80px;
@@ -34,10 +34,11 @@ body {
     height: 80px;
     line-height: 80px;
     transition: background-color 0.3s;
+    font-size: 20px;
 }
 
 .navegação li:hover {
-    background-color: bisque;
+    background-color: rgb(182, 148, 0);
 }
 
 .navegação a{
@@ -57,10 +58,15 @@ header{
     background-color: white;
     box-shadow: 30px 30px 100px rgb(95, 95, 95);
     border-radius: 30px;
+
+    & h2{
+        font-size: 40px;
+    }
 }
 .cabeçalho{
     & h1{
         color: white;
         font-size: 70px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
     }
 }
